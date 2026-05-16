@@ -192,12 +192,15 @@ export default function Page() {
               <li>· BROOKSVILLE</li>
             </ul>
           </div>
-          <div data-reveal className="md:col-span-7 maphatch h-80 border border-aegean-800/30 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-marble px-6 py-3 border border-aegean-800/30 font-display tracking-widest text-aegean-900 text-sm">
-                HERNANDO · CITRUS · FL
-              </div>
-            </div>
+          <div data-reveal className="md:col-span-7 h-80 border border-aegean-800/30 relative overflow-hidden bg-marble-200">
+            <iframe
+              src="https://maps.google.com/maps?q=Weeki+Wachee,+FL&z=10&output=embed"
+              className="block w-full h-full"
+              style={{ border: 0, filter: 'saturate(0.8) contrast(0.95)' }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Spartan Pool & Spa service area — Hernando & Citrus counties, FL"
+            />
           </div>
         </div>
       </section>
