@@ -73,7 +73,7 @@ export default function Page() {
       {/* ── Weekly Service · Done Right ── */}
       <section id="service" className="bg-marble">
         <div className="max-w-3xl mx-auto px-6 py-24">
-          <div data-reveal className="eyebrow text-center">I · Weekly Service</div>
+          <div data-reveal className="eyebrow text-center">Weekly Service</div>
           <h2 data-reveal className="mt-5 text-center font-display text-3xl md:text-5xl text-aegean-900 leading-tight">
             Done Right.
           </h2>
@@ -110,7 +110,7 @@ export default function Page() {
         <div className="max-w-6xl mx-auto px-6 py-24">
           <div className="grid md:grid-cols-12 gap-12">
             <div className="md:col-span-4">
-              <div data-reveal className="eyebrow">II · Coverage</div>
+              <div data-reveal className="eyebrow">Coverage</div>
               <h2 data-reveal className="mt-3 font-display text-3xl md:text-4xl text-aegean-900 leading-tight">
                 What We Cover.
               </h2>
@@ -147,7 +147,7 @@ export default function Page() {
       {/* ── CPO Certified · 14 Years ── */}
       <section id="credentials" className="water-band text-marble py-24 relative">
         <div className="max-w-6xl mx-auto px-6">
-          <div data-reveal className="eyebrow !text-bronze-300 text-center">III · Credentials</div>
+          <div data-reveal className="eyebrow !text-bronze-300 text-center">Credentials</div>
           <h2 data-reveal className="mt-4 text-center font-display text-3xl md:text-5xl text-marble">
             CPO Certified · Fourteen Years.
           </h2>
@@ -175,7 +175,7 @@ export default function Page() {
       <section className="bg-marble">
         <div className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5">
-            <div data-reveal className="eyebrow">IV · Coverage Area</div>
+            <div data-reveal className="eyebrow">Coverage Area</div>
             <h2 data-reveal className="mt-3 font-display text-3xl md:text-4xl text-aegean-900">
               The Tri-County Coast.
             </h2>
@@ -208,7 +208,7 @@ export default function Page() {
       {/* ── Customer voices ── */}
       <section className="bg-marble-200/50">
         <div className="max-w-5xl mx-auto px-6 py-20">
-          <div data-reveal className="eyebrow text-center">V · From Customers</div>
+          <div data-reveal className="eyebrow text-center">From Customers</div>
           <div className="mt-10 grid md:grid-cols-2 gap-8">
             {[
               { q: "Water is always crystal — equipment hasn't skipped a beat.", a: 'Birdeye review' },
@@ -228,7 +228,7 @@ export default function Page() {
       <section id="contact" className="bg-aegean-900 text-marble">
         <div className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
-            <div data-reveal className="eyebrow !text-bronze-300">VI · Begin</div>
+            <div data-reveal className="eyebrow !text-bronze-300">Begin</div>
             <h2 data-reveal className="mt-3 font-display text-4xl md:text-5xl text-marble">
               Quote Request.
             </h2>
